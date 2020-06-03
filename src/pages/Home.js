@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import axios from 'axios';
 import "./style.css";
+import NavBar from "../components/NavBar";
 
 class Home extends Component {
     // state = {}
@@ -12,6 +13,7 @@ class Home extends Component {
 render() {
     return (
         <div className="page_body">
+            <NavBar />
             <h1>Home</h1>
             <div className='text_style'>
                 <h6>Prow scuttle parrel  <a href="#" class="link"> Sail ho shrouds </a>spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</h6>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import axios from 'axios';
 import "./style.css";
+import NavBar from "../components/NavBar";
 
 class Portfolio extends Component {
     // state = {}
@@ -12,6 +13,7 @@ class Portfolio extends Component {
 render() {
     return (
         <div className="page_body">
+        <NavBar />
             <h1>Portfolio</h1>
             <div className='text_style'>
                 <h6>Prow scuttle parrel  <a href="#" class="link"> Sail ho shrouds </a> spirits boom</h6>
