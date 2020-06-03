@@ -41,3 +41,23 @@ a:hover {
     padding-top: 60px;
 }
 
+@media only screen and (max-width: 960px) and (min-width: 640px) {
+    .top_spacer {
+        padding-top: 70px;
+    }
+    
+    .bottom_spacer {
+        padding-top: 60px;
+    }
+  }
+
+@media only screen and (max-width: 639px) { 
+    .top_spacer {
+        padding-top: 35px;
+    }
+    
+    .bottom_spacer {
+        padding-top: 30px;
+    }
+  }
+
