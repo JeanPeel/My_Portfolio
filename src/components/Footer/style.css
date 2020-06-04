@@ -37,6 +37,8 @@
 
 @media only screen and (max-width: 639px) { 
     .footer_bar {
-        display: none;
+        font-size: calc(2px + 2vmin);
+        position: static;
+        bottom: 0px;
     }
   }
