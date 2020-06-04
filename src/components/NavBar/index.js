@@ -26,7 +26,7 @@ function NavBar() {
                         </div>
                     </div>
 
-                    <ul class="navbar-nav ul_style">
+                    <ul class="navbar-nav main_drop_style">
                         <li class="nav-item dropdown drop_style">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                 Menu

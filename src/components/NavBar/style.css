@@ -18,8 +18,9 @@
     color: #f1e8e5;
     text-decoration: none;
     font-family: 'Courgette', cursive;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
+    padding: 0 0 0 0;
 }
 
 #navbardrop {
@@ -45,9 +46,14 @@
     width: 18vw;
 }
 
-.ul_style {
+.main_drop_style {
     visibility: hidden;
     width: 0px;
+}
+
+#navbardrop {
+    font-weight: normal;
+    font-size: 4px;
 }
 
 .drop_style {
@@ -65,11 +71,17 @@
 
     .navbarBrand {
         font-size: 25px;
+        padding: 0 0 0 0;
     }
 
-    .ul_style {
+    .main_drop_style {
         visibility: hidden;
         width: 0px;
+    }
+
+    #navbardrop {
+        font-weight: normal;
+        font-size: 4px;
     }
     
     .drop_style {
@@ -91,22 +103,25 @@
     }
 
     .navbar_brand {
-        font-size: 15px;
+        font-size: 26px;
         padding: 0 0 0 0;
-    }
-
-    .ul_style {
-        visibility: visible;
-        width: auto;
-    }
-    
-    .drop_style {
-        visibility: visible;
     }
 
     #navbardrop {
         font-weight: bold;
         font-size: 15px;
     }
+
+    .main_drop_style {
+        visibility: visible;
+        width: auto;
+
+    }
+    
+    .drop_style {
+        visibility: visible;
+    }
+
+
 
   }

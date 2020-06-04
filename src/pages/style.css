@@ -13,7 +13,7 @@
 }
 
 h1 {
-    padding-top: 4vh;
+    /* padding-top: 5vh; */
     color: #f1e8e5;
     text-decoration: none;
     font-family: 'Courgette', cursive;
@@ -34,7 +34,7 @@ a:hover {
 }
 
 .top_spacer {
-    padding-top: 70px;
+    padding-top: 110px;
 }
 
 .bottom_spacer {
@@ -43,7 +43,7 @@ a:hover {
 
 @media only screen and (max-width: 960px) and (min-width: 640px) {
     .top_spacer {
-        padding-top: 70px;
+        padding-top: 110px;
     }
     
     .bottom_spacer {
@@ -53,7 +53,7 @@ a:hover {
 
 @media only screen and (max-width: 639px) { 
     .top_spacer {
-        padding-top: 35px;
+        padding-top: 75px;
     }
     
     .bottom_spacer {
