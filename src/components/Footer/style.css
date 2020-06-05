@@ -29,6 +29,11 @@
     text-decoration: none;
 }
 
+b {
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+}
+
 @media only screen and (max-width: 960px) and (min-width: 640px) {
     .footer_bar {
         font-size: calc(2px + 2vmin);
@@ -38,7 +43,7 @@
 @media only screen and (max-width: 639px) { 
     .footer_bar {
         font-size: calc(2px + 2vmin);
-        position: static;
+        position: relative;
         bottom: 0px;
     }
   }

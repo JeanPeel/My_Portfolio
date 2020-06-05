@@ -16,11 +16,15 @@ class Connect extends Component {
             <div className="page_body">
                 <NavBar />
                 <div className='top_spacer'></div>
-                <h1>Connect</h1>
                 <div className='text_style'>
-                    <h6>Prow scuttle parrel  <a href="#" className="link"> Sail ho shrouds </a> spirits boom</h6>
+                    <div className='header_div'>
+                        <h1>Connect</h1>
+                    </div>
+                    <div className='text_style'>
+                        <h6>Prow scuttle parrel  <a href="#" className="link"> Sail ho shrouds </a> spirits boom</h6>
+                    </div>
+                    <div className='bottom_spacer'></div>
                 </div>
-                <div className='bottom_spacer'></div>
                 <Footer />
             </div>
         );

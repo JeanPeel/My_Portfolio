@@ -24,16 +24,18 @@ function NavBar() {
                         <button className="btn btn-success" type="submit">Go</button>
                     </div>
                 </div>
-
-                <ul className="navbar-nav ul_style">
+                <ul className="navbar-nav main_drop_style">
                     <li className="nav-item dropdown drop_style">
                         <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                             Menu
                             </a>
                         <div className="dropdown-menu">
-                            <a className="dropdown-item" href="#">Link 1</a>
-                            <a className="dropdown-item" href="#">Link 2</a>
-                            <a className="dropdown-item" href="#">Link 3</a>
+                            <a className="dropdown-item" href="/">Home</a>
+                            <a className="dropdown-item" href="/about">About</a>
+                            <a className="dropdown-item" href="/portfolio">Portfolio</a>
+                            <a className="dropdown-item" href="/resume">Resume</a>
+                            <a className="dropdown-item" href="/blog">Blog</a>
+                            <a className="dropdown-item" href="/connect">Connect</a>
                         </div>
                     </li>
                 </ul>

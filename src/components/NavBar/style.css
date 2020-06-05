@@ -11,7 +11,6 @@
     color: #f1e8e5;
     border-bottom: #887b6d 4px solid;
     position: fixed;
-    padding-right: 0px;
 }
 
 .navbar_brand, .navbar_brand:hover, .navbar_brand:active {
@@ -47,8 +46,7 @@
 }
 
 .main_drop_style {
-    visibility: hidden;
-    width: 0px;
+    display: none;
 }
 
 #navbardrop {
@@ -75,13 +73,12 @@
     }
 
     .main_drop_style {
-        visibility: hidden;
-        width: 0px;
+        display: none;
     }
 
-    #navbardrop {
+    .bar_item {
         font-weight: normal;
-        font-size: 4px;
+        font-size: calc(2px + 2vmin);
     }
     
     .drop_style {
@@ -113,9 +110,7 @@
     }
 
     .main_drop_style {
-        visibility: visible;
-        width: auto;
-
+        display: inline;
     }
     
     .drop_style {
