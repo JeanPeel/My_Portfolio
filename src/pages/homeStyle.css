@@ -104,13 +104,16 @@
 .see_more1 {
     display: none;
     text-align: center;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .see_more2 {
     display: inline;
     text-align: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .centering {
@@ -174,7 +177,10 @@
     
     .see_more2 {
         display: inline;
-    
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
@@ -208,7 +214,10 @@
 
     .see_more1 {
         display: inline;
- 
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .see_more2 {
@@ -235,13 +244,14 @@
 
     .see_more1 {
         display: none;
- 
-
     }
     
     .see_more2 {
         display: inline;
-
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
   }
