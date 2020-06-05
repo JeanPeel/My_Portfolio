@@ -16,7 +16,7 @@ class Resume extends Component {
                 <NavBar />
                 <h1>Resume</h1>
                 <div className='text_style'>
-                    <h6>Prow scuttle parrel  <a href="#" class="link"> Sail ho shrouds </a> spirits boom</h6>
+                    <h6>Prow scuttle parrel  <a href="#" className="link"> Sail ho shrouds </a> spirits boom</h6>
                 </div>
             </div>
         );
