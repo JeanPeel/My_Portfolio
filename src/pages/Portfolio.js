@@ -15,7 +15,7 @@ class Portfolio extends Component {
         return (
             <div className="page_body">
                 <NavBar />
-                <div class='top_spacer'></div>
+                <div className='top_spacer'></div>
                 <h1>Portfolio</h1>
                 <div className='text_style'>
                     <h6>Prow scuttle parrel  <a href="#" class="link"> Sail ho shrouds </a>spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</h6>
@@ -43,7 +43,7 @@ class Portfolio extends Component {
                     <h6>Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</h6>
 
                 </div>
-                <div class='bottom_spacer'></div>
+                <div className='bottom_spacer'></div>
                 <Footer />
             </div>
         );

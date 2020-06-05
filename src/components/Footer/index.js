@@ -5,13 +5,12 @@ function Footer() {
 
     return (
 
-        <nav class="navbar navbar_menu footer_bar">
-            <div class="container-fluid">
-                <a class="footer_item" href="/sitemap">Site Map</a>
-                <a class="footer_item" href="/copyright">&copy; Copyright</a>
-                <a class="footer_item" href="/contact">Contact Jean Peel</a>
-
-           </div>
+        <nav className="navbar navbar_menu footer_bar">
+            <div className="container-fluid">
+                <a className="footer_item" href="/sitemap">Site Map</a>
+                <a className="footer_item" href="/copyright">&copy; Copyright</a>
+                <a className="footer_item" href="/contact">Contact Jean Peel</a>
+            </div>
         </nav>
 
     );
