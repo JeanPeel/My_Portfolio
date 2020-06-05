@@ -23,7 +23,8 @@
 }
 
 #navbardrop {
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 4px;
 }
 
 .bar_item {
@@ -48,12 +49,6 @@
 .main_drop_style {
     display: none;
 }
-
-#navbardrop {
-    font-weight: normal;
-    font-size: 4px;
-}
-
 .drop_style {
     visibility: hidden;
 }
@@ -116,7 +111,5 @@
     .drop_style {
         visibility: visible;
     }
-
-
 
   }

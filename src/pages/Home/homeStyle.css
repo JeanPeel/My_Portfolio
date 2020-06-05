@@ -1,9 +1,4 @@
 
-.header_div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .wrapper {
     width:100%;
@@ -152,6 +147,13 @@
     font-weight: bold;
 }
 
+.header_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 @media only screen and (min-width: 1600px) { 
     .dots1 {
         visibility: hidden;
@@ -247,7 +249,7 @@
   }
 
 @media only screen and (max-width: 639px) { 
-       .wrapper {
+    .wrapper {
         display: flex;
         flex-direction: column;
     }

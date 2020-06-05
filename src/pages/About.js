@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import axios from 'axios';
-import "./style.css";
+// import "./style.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
@@ -21,7 +21,7 @@ class About extends Component {
                         <h1>About</h1>
                     </div>
                     <div className='text_style'>
-                        <h6>Prow scuttle parrel  <a href="#" className="link"> Sail ho shrouds </a> spirits boom</h6>
+                        <h6>Prow scuttle parrel  <a href="#" className="link_style"> Sail ho shrouds </a> spirits boom</h6>
                     </div>
                     <div className='bottom_spacer'></div>
                 </div>
