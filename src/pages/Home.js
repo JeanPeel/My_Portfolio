@@ -8,7 +8,10 @@ import Footer from "../components/Footer";
 import profilepic from "../components/images/profilepic.jpg"
 import goodCoffee2 from "../components/images/goodCoffee2.jpg"
 import photo from "../components/images/photo.png"
-
+import myPortfolio from "../components/images/myPortfolio.png"
+import googleBook from "../components/images/googleBook.png"
+import habitTracker from "../components/images/habitTracker.png"
+import phaserGame from "../components/images/phaserGame.png"
 
 class Home extends Component {
     // state = {}
@@ -53,13 +56,13 @@ class Home extends Component {
                             </div>
                             <div className='gallery_div'>
                                 <div className='gallery_row'>
-                                    <img src={photo} alt="photo" className="thumbnail" id='image1' />
+                                    <img src={myPortfolio} alt="photo" className="thumbnail" id='image1' />
                                     <div className='see_more1'><a href="#" className="link"> ... Click to See More</a></div>
-                                    <img src={photo} alt="photo" className="thumbnail" id='image2' />
+                                    <img src={googleBook} alt="photo" className="thumbnail" id='image2' />
                                 </div>
                                 <div className='gallery_row row2'>
-                                    <img src={photo} alt="photo" className="thumbnail" id='image3' />
-                                    <img src={photo} alt="photo" className="thumbnail" id='image4' />
+                                    <img src={habitTracker} alt="photo" className="thumbnail" id='image3' />
+                                    <img src={phaserGame} alt="photo" className="thumbnail" id='image4' />
                                     <div className='see_more2'><a href="#" className="link"> ... Click to See More</a></div>
                                 </div>
                             </div>

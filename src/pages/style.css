@@ -65,10 +65,6 @@ a:hover {
     text-align: justify;
 }
 
-.gallery_div {
-
-}
-
 .img-folio {
     position: relative;
   }
@@ -92,7 +88,7 @@ a:hover {
     background-color: #80afbd;
     border: none;
     outline: none;
-    color: #fcfaf9;
+    color: #f1e8e5;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -102,12 +98,12 @@ a:hover {
     box-shadow: 0 4px #887b6d;
     text-align: center;
     width: 270px;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   .container .btn:active {
     background-color: #887b6d;
-    color: #fcfaf9;
+    color: #f1e8e5;
     box-shadow: 0 5px #887b6d;
     transform: translateY(4px);
   }
@@ -115,7 +111,7 @@ a:hover {
   
   .container .btn:hover {
     background-color: #887b6d;
-    color: #fcfaf9;
+    color: #f1e8e5;
   }
 
   .port-img {
