@@ -24,7 +24,9 @@ class About extends Component {
                     <div className='text_style'>
                         <h6>Prow scuttle parrel  <a href="#" className="link_style"> Sail ho shrouds </a> spirits boom</h6>
                     </div>
-                    <div className='image_div2'><img src={goodCoffee2} alt="Candid Photo" className="blog_pic" /></div>
+                    <div className='image_div2'>
+                        <img src={goodCoffee2} alt="Candid Photo" className="blog_pic" />
+                    </div>
                     <div className='bottom_spacer'></div>
                 </div>
                 <Footer />
