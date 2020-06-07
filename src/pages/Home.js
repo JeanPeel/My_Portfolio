@@ -78,14 +78,20 @@ class Home extends Component {
                                 </div>
                                 <div className='image_div2'><img src={goodCoffee2} alt="Candid Photo" className="blog_pic" /></div>
                                 <div className='profile_div'>
-                                    <div className='profile_text'>  <p className='blog_text'>Prow scuttle parrel  <a href="#" className="link"> Sail ho shrouds </a>spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+                                    <div>
+                                        <div id="about-me" className="d-flex justify-content-center"><a href="#" >About Me</a></div>
+                                        <div id="about-me" className="d-flex justify-content-center">Date: Jan 11th, 2020</div><br />
 
-                                    <p className='blog_text'>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</p>
+                                        <div className='profile_text'>
 
-                                    <p className='blog_text'>Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
+                                            <p className='blog_text'>For me a good day starts with coffee. A better day starts after a full nights sleep. I have been working from home on and off for about 20 years. I just finished managing two major home remodels that were profitable.</p>
 
-                                    <p className='blog_text'>Prow scuttle parrel  <a href="#" className="link"> Sail ho shrouds </a>spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+                                            <p className='blog_text'>I have been married for 23 years... We have four kids, two daughters and two sons...</p>
 
+                                            <p className='blog_text'>I volunteer in a meet up community as an activities committee member. Besides coding, blogging and social media, I like to hang out with friends, garden, draw, bake, play board games, listen to music, go out in nature, and hang out with my husband and kids...</p>
+
+                                            <div className="d-flex justify-content-center"><a href="#" >... Read More Blog</a></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
