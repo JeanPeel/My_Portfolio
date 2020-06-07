@@ -24,7 +24,7 @@ function NavBar() {
                         <button className="btn btn-info" type="submit">Go</button>
                     </div>
                 </div>
-                {/* <ul className="navbar-nav main_drop_style">
+                <ul className="navbar-nav main_drop_style">
                     <li className="nav-item dropdown drop_style">
                         <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                             Menu
@@ -38,7 +38,7 @@ function NavBar() {
                             <a className="dropdown-item" href="/connect">Connect</a>
                         </div>
                     </li>
-                </ul> */}
+                </ul>
 
             </div>
         </nav>
