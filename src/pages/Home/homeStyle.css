@@ -22,7 +22,10 @@
     width: 40%;
 }
 
-
+.thumbnail_div {
+    width: 100%;
+    padding: 0;
+}
 
 .profile_div {
     text-align: left;
@@ -49,7 +52,7 @@
 }
 
 .thumbnail {
-    width: 50%;
+    width: 100%;
     height: auto;
     padding: 10px 0px 10px 20px;
 }
@@ -61,11 +64,17 @@
     width: 70%;
 }
 
+.row2 {
+    display: inline;
+}
+
+
 .gallery_row {
     text-align: left;
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding: 0;
 }
 
 .media_div2 {
@@ -75,6 +84,7 @@
 .gallery_div {
     width: 100%;
     text-align: justify;
+    padding: 0;
 }
 
 .dots1 {
@@ -108,9 +118,7 @@
     display: inline;
 }
 
-.row2 {
-    display: inline;
-}
+
 
 .see_more1 {
     display: none;

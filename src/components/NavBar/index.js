@@ -1,15 +1,16 @@
 import React from "react";
 import "./style.css";
-
+import logoC from '../images/logoC.png'
 
 function NavBar() {
 
     return (
+        <div>
         <nav className="navbar navbar_menu nav_bar">
             <div className="container-fluid">
 
                 <div className="navbar-header">
-                    <a className="navbar-brand navbar_brand" href="/">Jean Peel</a>
+                    <a className="navbar-brand navbar_brand" href="/"><img src={logoC} alt="logo" className="logo" />Jean Peel</a>
                 </div>
                 <a className="bar_item" href="/">Home</a>
                 <a className="bar_item" href="/about">About</a>
@@ -42,7 +43,7 @@ function NavBar() {
 
             </div>
         </nav>
-
+        </div>
     );
 }
 

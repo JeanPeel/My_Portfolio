@@ -56,15 +56,20 @@ class Home extends Component {
                             </div>
                             <div className='gallery_div'>
                                 <div className='gallery_row'>
-                                    <img src={myPortfolio} alt="photo" className="thumbnail" id='image1' />
+                                    <a href="https://github.com/JeanPeel/my_portfolio" target="_blank" className="thumbnail_div">
+                                        <img src={myPortfolio} alt="My Portfolio" className="thumbnail" id='image1' /> </a>
                                     <div className='see_more1'><a href="#" className="link"> ... Click to See More</a></div>
-                                    <img src={googleBook} alt="photo" className="thumbnail" id='image2' />
+                                    <a href="https://github.com/JeanPeel/A-Google-Book-App" target="_blank" className="thumbnail_div">
+                                        <img src={googleBook} alt="Google Book Search App" className="thumbnail" id='image2' /> </a>
                                 </div>
                                 <div className='gallery_row row2'>
-                                    <img src={habitTracker} alt="photo" className="thumbnail" id='image3' />
-                                    <img src={phaserGame} alt="photo" className="thumbnail" id='image4' />
-                                    <div className='see_more2'><a href="#" className="link"> ... Click to See More</a></div>
+                                    <a href="https://github.com/swazeyjessup/project-3" target="_blank" className="thumbnail_div">
+                                        <img src={habitTracker} alt="Habit Tracker" className="thumbnail" id='image3' /> </a>
+                                    <a href="https://dry-journey-46038.herokuapp.com/" target="_blank" className="thumbnail_div">
+                                        <img src={phaserGame} alt="Phaser Game" className="thumbnail" id='image4' /> </a>
+                                    
                                 </div>
+                                <div className='see_more2'><a href="#" className="link"> ... Click to See More</a></div>
                             </div>
                         </div>
                     </div>
