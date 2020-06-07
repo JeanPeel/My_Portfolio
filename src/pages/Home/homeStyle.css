@@ -19,7 +19,7 @@
 }
 
 .blog_pic {
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -154,6 +154,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 
 @media only screen and (min-width: 1600px) { 

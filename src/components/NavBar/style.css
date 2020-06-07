@@ -11,6 +11,7 @@
     color: #f1e8e5;
     border-bottom: #887b6d 4px solid;
     position: fixed;
+    z-index: 1;
 }
 
 .navbar_brand, .navbar_brand:hover, .navbar_brand:active {

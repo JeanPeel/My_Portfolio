@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import axios from 'axios';
-// import "./style.css";
+import "./style.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import goodCoffee2 from "../components/images/goodCoffee2.jpg"
