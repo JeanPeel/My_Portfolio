@@ -127,6 +127,17 @@ a:hover {
     margin-bottom: 60px;
 }
 
+.form_div {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.full_width {
+    width: '100%';
+    color: #443d36;
+}
 
 @media only screen and (min-width: 1600px) { 
 
