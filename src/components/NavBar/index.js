@@ -21,7 +21,7 @@ function NavBar() {
                 <div className="input-group mb-3 search_style">
                     <input type="text" className="form-control form_fix " placeholder="Search" />
                     <div className="input-group-append">
-                        <button className="btn btn-success" type="submit">Go</button>
+                        <button className="btn btn-info" type="submit">Go</button>
                     </div>
                 </div>
                 {/* <ul className="navbar-nav main_drop_style">

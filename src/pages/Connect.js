@@ -3,6 +3,7 @@ import React, { Component } from "react";
 // import "./style.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import goodCoffee2 from "../components/images/goodCoffee2.jpg"
 
 class Connect extends Component {
     // state = {}
@@ -41,6 +42,17 @@ class Connect extends Component {
                             </textarea><br />
                             <button type="button" class="btn btn-info">Submit</button>
                         </form>
+                    </div>
+                    <div className='header_div'>
+                        <h1></h1>
+                    </div>
+                    <div>
+                    <div className='image_div2'><img src={goodCoffee2} alt="Candid Photo" className="blog_pic" /></div>
+                            <br />
+                            <div id="about-me" className="d-flex justify-content-center"><a href="#" ></a></div>
+                            <div id="about-me" className="d-flex justify-content-center"></div><br />
+                        <div className="d-flex flex-row-reverse more"><a href="#" ></a></div>
+                        <br />
                     </div>
                     <div className='bottom_spacer'></div>
                 </div>
