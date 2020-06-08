@@ -30,13 +30,13 @@ The CSS uses media calls based on the size of the screen.  It is a little tangle
 
 ## Authors
 
-* **Jean Peel** - *Initial work on React Webpage* - [Jean Peel](https://github.com/JeanPeel)
+* **Jean Peel** - *Initial work on React Webpage* - [JeanPeel](https://github.com/JeanPeel)
 
 ## Acknowledgments
 
 ### Hat tips tp...
 
-* Jacob Stanger -  *Trouble Shooting Help* - [jcstang](https://github.com/jcstang)
+* Jacob Stanger -  *Trouble Shooting Help* - [JCStang](https://github.com/jcstang)
 
 See also the list of [contributors](https://github.com/JeanPeel/my_portfolio/graphs/contributors) who participated in this project.
 
