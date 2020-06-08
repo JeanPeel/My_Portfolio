@@ -1,18 +1,36 @@
 # My Portfolio
 
-This is a webpage built in react using bootstrap and CSS.  I shows a portfolio of my coding projects including an about me page, contact information, resume, and even a future blog.  It is a one stop shop for me to show my self branding and build my profile of my skills and atributes.
+This is a webpage built in react using bootstrap and CSS.  It shows a portfolio of my coding projects including an about me page, contact information, resume, and even a future blog.  It is a one stop shop for me to show my self branding and build my profile of my skills and atributes.
 
-## Getting Started
+## About this project
 
 This project is intended to display information about myself and my branding.  This project can be duplicated by someone who is interested in building themselves something smilar.
+
+## Table of Contents
+* Application Use
+* Tech Used
+* Details of App and Challenges
+* Link to the Live Project
+
+## Application Use
+The app is a multipule page React Application. The user lands on the Home Page where they can navigate to an about me page, contact information, resume, and even a future blog.
+
+## Tech Used
+* React.js
+* Bootstrap
+* Google Fonts
+* Javascript
+* Heroku
+* CSS
+* React-Router-Dom
+* React-Alert
+
+## Details of App and Challenges
+The CSS uses media calls based on the size of the screen.  It is a little tangled and unclear at this time.  In future versions I would like to untangle the CSS and make it more clear.  In the middle I ran into an unknown CSS problem.  I took apart the whole page one item at a time and rebuilt it, and did not find the problem.  So I moved forward with putting items into imperfect pages.  As I did this I found the different nuanced tangled CSS elements that produce results differently then intended.  At some point in the future the project would benefit from reorganizing the CSS and untangeling the overlap of media call interactions.
 
 ## Authors
 
 * **Jean Peel** - *Initial work on React Webpage* - [Jean Peel](https://github.com/JeanPeel)
-
-
-* **Billie Thompson** - *Initial work on Readme Template* - [PurpleBooth](https://github.com/PurpleBooth)
-
 
 ## Acknowledgments
 
@@ -112,24 +130,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Learn More
 
