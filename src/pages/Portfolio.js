@@ -65,7 +65,7 @@ class Portfolio extends Component {
                                 <button type="button" className="btn">Sterlo's Portfolio</button>
                             </a>
 
-                            <a href="https://github.com/JeanPeel/Project-1" target="_blank" className="container">
+                            <a href="https://nreyes1202.github.io/Project-1/" target="_blank" className="container">
                                 <img src={toDoApp} alt="To Do List" className="port-img" />
                                 <button type="button" className="btn">To Do List</button>
                             </a>
@@ -75,7 +75,7 @@ class Portfolio extends Component {
                                 <button type="button" className="btn">Gem Collector</button>
                             </a>
 
-                            <a href="https://github.com/JeanPeel/Psychic-Game" target="_blank" className="container">
+                            {/* <a href="https://github.com/JeanPeel/Psychic-Game" target="_blank" className="container">
                                 <img src={typingGame} alt="Psychic Game" className="port-img" />
                                 <button type="button" className="btn">Psychic Game</button>
                             </a>
@@ -83,7 +83,7 @@ class Portfolio extends Component {
                             <a href="https://github.com/JeanPeel/gh-pages-demo" target="_blank" className="container port_bottom">
                                 <img src={cssPlay} alt="CSS Play" className="port-img " />
                                 <button type="button" className="btn">CSS Play</button>
-                            </a>
+                            </a> */}
 
                             {/* <div className="container">
                                 <img src={photo} alt="Trivia Game" className="port-img" />
