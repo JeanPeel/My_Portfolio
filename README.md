@@ -14,6 +14,7 @@ This project is intended to display information about myself and my branding.  T
 * Prerequisites
 
 ## Application Use
+
 The app is a multipule page React Application. The user lands on the Home Page where they can navigate to an about me page, contact information, resume, and even a future blog.
 
 ## Tech Used
@@ -27,6 +28,7 @@ The app is a multipule page React Application. The user lands on the Home Page w
 * React-Alert
 
 ## Details of App and Challenges
+
 The CSS uses media calls based on the size of the screen.  It is a little tangled and unclear at this time.  In future versions I would like to untangle the CSS and make it more clear.  In the middle I ran into an unknown CSS problem.  I took apart the whole page one item at a time and rebuilt it, and did not find the problem.  So I moved forward with putting items into imperfect pages.  As I did this I found the different nuanced tangled CSS elements that produce results differently then intended.  At some point in the future the project would benefit from reorganizing the CSS and untangeling the overlap of media call interactions.
 
 ## Authors
@@ -44,7 +46,6 @@ See also the list of [contributors](https://github.com/JeanPeel/my_portfolio/gra
 ## Link to the Live Project on Heroku will be posted here after it is hosted...
 
 ## Link to GitHub code Repository: https://github.com/JeanPeel/my_portfolio
-
 
 ### Prerequisites
 
