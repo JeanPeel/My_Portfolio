@@ -11,6 +11,7 @@ This project is intended to display information about myself and my branding.  T
 * Tech Used
 * Details of App and Challenges
 * Link to the Live Project
+* Prerequisites
 
 ## Application Use
 The app is a multipule page React Application. The user lands on the Home Page where they can navigate to an about me page, contact information, resume, and even a future blog.
