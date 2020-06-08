@@ -1,4 +1,80 @@
+# My Portfolio
+
+This is a webpage built in react using bootstrap and CSS.  I shows a portfolio of my coding projects including an about me page, contact information, resume, and even a future blog.  It is a one stop shop for me to show my self branding and build my profile of my skills and atributes.
+
+## Getting Started
+
+This project is intended to display information about myself and my branding.  This project can be duplicated by someone who is interested in building themselves something smilar.
+
+## Authors
+
+* **Jean Peel** - *Initial work on React Webpage* - [Jean Peel](https://github.com/JeanPeel)
+
+
+* **Billie Thompson** - *Initial work on Readme Template* - [PurpleBooth](https://github.com/PurpleBooth)
+
+
+## Acknowledgments
+
+### Hat tips tp...
+
+* Jacob Stanger -  *Trouble Shooting Help* - [jcstang](https://github.com/jcstang)
+
+See also the list of [contributors](https://github.com/JeanPeel/my_portfolio/graphs/contributors) who participated in this project.
+
+
+### Prerequisites
+
+The Libraries on this project are Bootstrap CSS and Script links, Jquery links, there is a Popper link also on the main html page but I hav enot used this yet.  
+
+The dependencies on this project are React, React Bootstrap, Express, Npde Lodash. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+```
+examples...
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+examples...
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+examples...
+``` an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+examples...
+```
+
+## Deployment
 
 ## Available Scripts
 
@@ -36,6 +112,24 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Learn More
 
