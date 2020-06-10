@@ -72,7 +72,7 @@
   # By default, redirects won't be applied if there's a file with the same
   # path as the one defined in the `from` property. Setting `force` to `true`
   # will make the redirect rule take precedence over any existing files.
-  force = true
+  # force = true
 
   # Redirect from /old-path?id=123 to /new-path. Each combination of query
   # params needs to be defined in a separate [[redirects]] block.
