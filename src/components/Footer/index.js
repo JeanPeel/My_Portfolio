@@ -9,7 +9,7 @@ function Footer() {
             <div className="container-fluid">
                 <a className="footer_item" href="/sitemap">Site Map</a>
                 <a className="footer_item" href="/copyright">&copy; Copyright</a>
-                <a className="footer_item" href="/contact">Contact <b>Jean Peel</b></a>
+                <a className="footer_item" href="/connect">Contact <b>Jean Peel</b></a>
             </div>
         </nav>
 

@@ -3,10 +3,10 @@ import React, { Component } from "react";
 import "./style.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import goodCoffee2 from "../components/images/goodCoffee2.jpg"
-import profilepic from "../components/images/profilepic.jpg"
+// import goodCoffee2 from "../components/images/goodCoffee2.jpg"
+// import profilepic from "../components/images/profilepic.jpg"
 // import { Document, Page } from '../components/images/Jean_Peel_Resume.pdf';
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+// import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
 
 
 

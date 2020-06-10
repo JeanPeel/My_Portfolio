@@ -22,7 +22,7 @@ class Blog extends Component {
                         <h1>Blog</h1>
                     </div>
                     <div>
-                        <div className='image_div2'><img src={goodCoffee2} alt="Candid Photo" className="blog_pic" /></div>
+                        <div className='image_div2'><img src={goodCoffee2} alt="Candid" className="blog_pic" /></div>
                         <br />
                         <div id="about-me" className="d-flex justify-content-center"><h5>Interesting Stuff About Me</h5></div>
                         <div id="about-me" className="d-flex justify-content-center">Date: Jan 11th, 2020</div><br />

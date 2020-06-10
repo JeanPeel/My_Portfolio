@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 // import Slides from "../components/Slides";
 import profilepic from "../components/images/profilepic.jpg"
 import goodCoffee2 from "../components/images/goodCoffee2.jpg"
-import photo from "../components/images/photo.png"
+// import photo from "../components/images/photo.png"
 import myPortfolio from "../components/images/myPortfolio.png"
 import googleBook from "../components/images/googleBook.png"
 import habitTracker from "../components/images/habitTracker.png"
@@ -36,7 +36,7 @@ class Home extends Component {
                                     <h1>Profile</h1>
                                 </div>
                                 <div className='profile_div'>
-                                    <div className='image_div'><img src={profilepic} alt="Profile Picture" className="profile_pic" /></div>
+                                    <div className='image_div'><img src={profilepic} alt="Profile" className="profile_pic" /></div>
                                     <p className='profile_text'>  <div className='text1'>In my pursuit of expanding my knowledge, I am looking for Web Developer work experience. As a bootcamp
                                     graduate with UX/UI layout and design experience, I believe that I can bring valuable contributions to the
                                     work environment. The attached resume details my experience and training. Here are some highlights,
@@ -60,18 +60,18 @@ class Home extends Component {
                             </div>
                             <div className='gallery_div'>
                                 <div className='gallery_row'>
-                                    <a href="https://github.com/JeanPeel/my_portfolio" target="_blank" className="thumbnail_div">
+                                    <a href="https://github.com/JeanPeel/my_portfolio"  className="thumbnail_div">
                                         <img src={myPortfolio} alt="My Portfolio" className="thumbnail" id='image1' /> </a>
                                     
-                                    <a href="https://github.com/JeanPeel/A-Google-Book-App" target="_blank" className="thumbnail_div">
+                                    <a href="https://github.com/JeanPeel/A-Google-Book-App"  className="thumbnail_div">
                                         <img src={googleBook} alt="Google Book Search App" className="thumbnail" id='image2' /> </a>
                                         
                                 </div>
                                 <div className='gallery_row row2'>
-                                    <a href="https://github.com/swazeyjessup/project-3" target="_blank" className="thumbnail_div">
+                                    <a href="https://github.com/swazeyjessup/project-3"  className="thumbnail_div">
                                         <img src={habitTracker} alt="Habit Tracker" className="thumbnail" id='image3' /> </a>
                                         <div className='see_more1'><a href="/portfolio" className="link"> ... Click to See More</a></div>
-                                    <a href="https://dry-journey-46038.herokuapp.com/" target="_blank" className="thumbnail_div">
+                                    <a href="https://dry-journey-46038.herokuapp.com/"  className="thumbnail_div">
                                         <img src={phaserGame} alt="Phaser Game" className="thumbnail" id='image4' /> </a>
 
                                 </div>
@@ -90,7 +90,7 @@ class Home extends Component {
                                 <div className='header_div'>
                                     <h1>Featured Blog Post</h1>
                                 </div>
-                                <div className='image_div2'><img src={goodCoffee2} alt="Candid Photo" className="blog_pic" /></div>
+                                <div className='image_div2'><img src={goodCoffee2} alt="Candid" className="blog_pic" /></div>
                                 <div className='profile_div'>
                                     <div>
                                         <div id="about-me" className="d-flex justify-content-center"><a href="/blog" >Interesting Stuff About Me</a></div>

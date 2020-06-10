@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "./style.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import goodCoffee2 from "../components/images/goodCoffee2.jpg"
+// import goodCoffee2 from "../components/images/goodCoffee2.jpg"
 import profilepic from "../components/images/profilepic.jpg"
 
 
@@ -23,7 +23,7 @@ class About extends Component {
                     <div className='header_div'>
                         <h1>About <i>Jean Peel</i></h1>
                     </div>
-                    <div className='image_div2'><img src={profilepic} alt="Candid Photo" className="blog_pic" /></div>
+                    <div className='image_div2'><img src={profilepic} alt="Candid" className="blog_pic" /></div>
                     <div className='blog_text'>
                         <br />
                         <p>
