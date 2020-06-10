@@ -38,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/home/react-app/",
+  "homepage": ".",
   "source": "**",
   "destination": "/index.html"
 }
