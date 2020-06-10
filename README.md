@@ -25,7 +25,10 @@ The app is a multipule page React Application. The user lands on the Home Page w
 * Heroku
 * CSS
 * React-Router-Dom
-* React-Alert
+* Axios
+* React-Dom
+* React-Router-Dom
+* React-Scripts
 
 ## Details of App and Challenges
 

@@ -16,14 +16,17 @@
 
 .logo {
     height: 50px;
-    padding: 0 12px 0 0;
+/* margin-top:0px; */
+    /* padding-top: -8px; */
+    padding-right: 8px;
 }
 
 .navbar_brand, .navbar_brand:hover, .navbar_brand:active {
     color: #f1e8e5;
     text-decoration: none;
-    font-family: 'Courgette', cursive;
-    font-weight: bold;
+    font-family: 'Rochester', cursive;
+    font-style: italic;
+
     font-size: 36px;
     padding: 0 0 0 0;
 }
@@ -49,7 +52,7 @@
 }
 
 .search_style {
-    width: 18vw;
+    width: 12vw;
 }
 
 .main_drop_style {

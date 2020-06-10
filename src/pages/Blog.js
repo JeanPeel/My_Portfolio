@@ -24,7 +24,7 @@ class Blog extends Component {
                     <div>
                         <div className='image_div2'><img src={goodCoffee2} alt="Candid Photo" className="blog_pic" /></div>
                         <br />
-                        <div id="about-me" className="d-flex justify-content-center"><a href="#" >About Me</a></div>
+                        <div id="about-me" className="d-flex justify-content-center"><h5>Interesting Stuff About Me</h5></div>
                         <div id="about-me" className="d-flex justify-content-center">Date: Jan 11th, 2020</div><br />
                         <div className='blog_text'>
                             <p>
@@ -54,7 +54,7 @@ class Blog extends Component {
                                 I volunteer in a meet up community as an activities committee member.  Besides coding, blogging and social media, I like to hang out with friends, garden, draw, bake, play board games, listen to music, go out in nature, and hang out with my husband and kids.
                         </p>
                         </div>
-                        <div className="d-flex flex-row-reverse more"><a href="#" >... Read More Blog</a></div>
+                     
 
                         <br />
                     </div>

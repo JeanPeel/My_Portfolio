@@ -19,12 +19,12 @@ function NavBar() {
                 <a className="bar_item" href="/blog">Blog</a>
                 <a className="bar_item" href="/connect">Connect</a>
 
-                <div className="input-group mb-3 search_style">
+                {/* <div className="input-group mb-3 search_style">
                     <input type="text" className="form-control form_fix " placeholder="Search" />
                     <div className="input-group-append">
                         <button className="btn btn-info" type="submit">Go</button>
                     </div>
-                </div>
+                </div> */}
                 <ul className="navbar-nav main_drop_style">
                     <li className="nav-item dropdown drop_style">
                         <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">

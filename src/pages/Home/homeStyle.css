@@ -153,7 +153,9 @@
 }
 
 .jp_link {
-    font-family: 'Courgette', cursive;
+    font-family: 'Rochester', cursive;
+    font-style: italic;
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -163,6 +165,9 @@
     justify-content: center;
 }
 
+h5 {
+    color: #c6513b;
+}
 
 
 @media only screen and (min-width: 1600px) { 
@@ -187,14 +192,18 @@
     
     #image3 {
         display: inline;
+      
     }
     
     #image4 {
         display: inline;
+   
     }
     
     .row2 {
-        display: inline;
+   
+        display: flex;
+        flex-direction: row;
     }
 
     .see_more1 {
@@ -228,11 +237,11 @@
     }
 
     #image2 {
-        display: none;
+        display: inline;
     }
     
     #image3 {
-        display: none;
+        display: inline;
     }
     
     #image4 {
@@ -240,7 +249,7 @@
     }
     
     .row2 {
-        display: none;
+        display: inline;
     }
 
     .see_more1 {

@@ -20,7 +20,7 @@ class Connect extends Component {
                 <div className='top_spacer'></div>
                 <div className='text_style'>
                 <div className='header_div'>
-                        <h1>Connect with<br />Jean Peel</h1>
+                        <h1>Connect with<i> Jean Peel</i></h1>
                     </div>
                     <div className='text_style'>
                         <h6><a href="https://www.linkedin.com/in/jean-peel-b52234198/" className="link_style">LinkedIn</a></h6>
@@ -30,7 +30,7 @@ class Connect extends Component {
                         {/* <h6>Gravatar<a href="https://en.gravatar.com/jeanpeel" className="link_style"></a></h6> */}
                     </div>
                     <div className='header_div padding_top'>
-                            <h1>Email Jean Peel</h1>
+                            <h1>Email <i>Jean Peel</i></h1>
                         </div>
                         
                     <div className='image_div2'><img src={profilepic} alt="Candid Photo" className="blog_pic" /></div>
@@ -38,13 +38,15 @@ class Connect extends Component {
 
 <form>
     <div className='form_text'>Name</div>
-    <input type="text" name="Name" className="contact-form" id="name" value="Enter your name here..." /><br />
+    <input type="text" name="Name" className="contact-form" id="name" placeholder="Enter your name here..." /><br />
     <div className='form_text'>Email</div>
-    <input type="text" name="Email" className="contact-form" id="email" value="Enter your email here..." /><br />
+    <input type="text" name="Email" className="contact-form" id="email" placeholder="Enter your email here..." /><br />
+    <div className='form_text'>Subject Line</div>
+    <input type="text" name="Email" className="contact-form" id="email" placeholder="Enter your subject here..." /><br />
     <div className='form_text'>Message</div>
-    <textarea name="Message" rows="10" cols="30" className="contact-form" value="Enter your email message here..." >
+    <textarea name="Message" rows="10" cols="30" className="contact-form" placeholder="Enter your email message here..." >
     </textarea><br />
-    <button type="button" className="btn btn-info">Submit</button>
+    <form action="mailto:jean.peel.246@gmail.com"><button type="button" onClick="mailto:jean.peel.246@gmail.com" className="btn btn-info" >Submit</button></form>
 </form>
 </div>
                             <br />
@@ -52,7 +54,9 @@ class Connect extends Component {
                    
                         <div className='blog_text'>
                         <p className='full_width'>
-                            For me a good day starts with coffee.  A better day starts after a full nights sleep.  I have been working from home on and off for about 20 years.  I just finished managing two major home remodels that were profitable.
+                            ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                            ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                   
                            </p>
                         </div>
 

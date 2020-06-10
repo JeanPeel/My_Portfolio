@@ -70,7 +70,7 @@ class Portfolio extends Component {
                                 <button type="button" className="btn">To Do List</button>
                             </a>
 
-                            <a href="https://github.com/JeanPeel/unit-4-game" target="_blank" className="container">
+                            <a href="https://github.com/JeanPeel/unit-4-game" target="_blank" className="container port_bottom">
                                 <img src={gemGame} alt="Gem Collector" className="port-img" />
                                 <button type="button" className="btn">Gem Collector</button>
                             </a>
