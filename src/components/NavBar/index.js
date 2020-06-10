@@ -12,7 +12,7 @@ function NavBar() {
                 <div className="navbar-header">
                     <a className="navbar-brand navbar_brand" href="/"><img src={logoC} alt="logo" className="logo" />Jean Peel</a>
                 </div>
-                <a className="bar_item" href="/">Home</a>
+                <a className="bar_item" href="/jeanpeel">Home</a>
                 <a className="bar_item" href="/about">About</a>
                 <a className="bar_item" href="/portfolio">Portfolio</a>
                 <a className="bar_item" href="/resume">Resume</a>
@@ -31,7 +31,7 @@ function NavBar() {
                             Menu
                             </a>
                         <div className="dropdown-menu">
-                            <a className="dropdown-item" href="/">Home</a>
+                            <a className="dropdown-item" href="/jeanpeel">Home</a>
                             <a className="dropdown-item" href="/about">About</a>
                             <a className="dropdown-item" href="/portfolio">Portfolio</a>
                             <a className="dropdown-item" href="/resume">Resume</a>
