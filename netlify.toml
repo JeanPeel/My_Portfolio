@@ -58,8 +58,8 @@
 
 # A basic redirect rule
 [[redirects]]
-from = "/"
-to = "/"
+from = "/home"
+to = "/home"
 
 [[redirects]]
 from = "/about"
