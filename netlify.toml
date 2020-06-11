@@ -62,10 +62,10 @@
 # to = "/blog/:splat"
 
 # A redirect rule with all the supported properties
-[[redirects]]
-  from = "/*"
-  to = "/about"
-  status = 200
+# [[redirects]]
+#  from = "/*"
+#  to = "/about"
+#  status = 200
 
   # The default HTTP status code is 301, but you can define a different one.
  status = 302
