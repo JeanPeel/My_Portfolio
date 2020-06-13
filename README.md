@@ -40,13 +40,13 @@ The CSS uses media calls based on the size of the screen.  It is a little tangle
 
 ## Acknowledgments
 
-### Hat tips tp...
+### Hat tips to...
 
 * Jacob Stanger -  *Trouble Shooting Help* - [JCStang](https://github.com/jcstang)
 
 See also the list of [contributors](https://github.com/JeanPeel/my_portfolio/graphs/contributors) who participated in this project.
 
-## Link to the Live Project on Heroku will be posted here after it is hosted...
+## Link to the Live Project on Netlify: https://JeanPeel.dev/
 
 ## Link to GitHub code Repository: https://github.com/JeanPeel/my_portfolio
 
